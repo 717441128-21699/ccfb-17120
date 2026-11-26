@@ -1,0 +1,20 @@
+{
+  "name": "silkworm-mature-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "八路蚕室监控：WebGL2 运动对齐降噪/校色，Web Worker 熟蚕识别与比例提醒",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
